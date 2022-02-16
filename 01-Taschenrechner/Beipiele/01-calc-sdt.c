@@ -42,18 +42,6 @@ int main(int argc, char** argv)
   case '/':
     ergebnis=ersteZahl/zweiteZahl;
     break;
-  case '%':
-    ergebnis=ersteZahl%zweiteZahl;
-    break;
-  case '|':
-    ergebnis=ersteZahl|zweiteZahl;
-    break;
-  case '&':
-    ergebnis=ersteZahl&zweiteZahl;
-    break;
-  case '^':
-    ergebnis=ersteZahl^zweiteZahl;
-    break;
   default:
     fprintf(stderr, "\'%c\' ist keine gültige Eingabe\n");
     return -1;
