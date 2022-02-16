@@ -1,3 +1,11 @@
+/*
+ * Übungsaufgabe 
+ * Aufgabe: Schreibe einen einfachen Taschenrechner
+ * 
+*/
+
+// benutzt printf/sscanf
+
 #include <stdio.h>
 
 int main () {
