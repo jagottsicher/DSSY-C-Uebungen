@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1645054884 source:/home/jens/development/DSSY-C-Uebungen/01-Taschenrechner/Beipiele/01-calc-sdt.c
+	<stdio.h>
+
+1645056666 source:/home/jens/development/DSSY-C-Uebungen/01-Taschenrechner/Beipiele/02-calc-ext.c
+	<stdio.h>
+

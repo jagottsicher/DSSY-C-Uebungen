@@ -12,18 +12,20 @@ int main()
 {
   // Erzeuge Variablen für die Ein- und Ausgabe
   int ersteZahl = 0;
-  char operation = 0;
+  char operation = ' ';
   int zweiteZahl = 0;
   int ergebnis = 0;
 
   // Frage nach den Zahlen
   // hier könnte natürlich auch eine kleine Schleife auswerten, ob die eingabe überhaupt eine Zahl ist.
   printf("Wie lautet die erste Zahl?        ");
-  scanf("%d%*c",&ersteZahl);
+  scanf("%d",&ersteZahl);
+
   printf("Welche Operation wird gewünscht?  ");
-  scanf("%c%*c",&operation);
+  sscanf("%c",&operation);
+
   printf("Wie lautet die andere Zahl?       ");
-  scanf("%d%*c",&zweiteZahl);
+  scanf("%d",&zweiteZahl);
 
   // berechne das Ergebnis (suche passende operation)
   switch( operation )
