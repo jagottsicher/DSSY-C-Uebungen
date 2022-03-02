@@ -19,6 +19,14 @@ int main () {
 
   printf("Aufgabe eingeben. <ENTER> für Berechnung => ");
 
+  // scanf reads from the standard input stream stdin.
+  // fscanf reads from the named input stream.
+  // sscanf reads from the character string s.
+  // Each function reads characters, interprets them according to a format,
+  // and stores the results in its arguments. Each expects, as arguments,
+  // a control string format described below, and a set of pointer arguments
+  // indicating where the converted input should be stored.
+
   if ( fgets(line, BUFFERSIZE,stdin) && sscanf(line,"%f%1s%f", &x,operand,&y) == 3 ) {
     switch ( operand[0] ) {
       case '+': ergebnis = x + y;
