@@ -40,13 +40,27 @@ int main()
           case '*':
             ergebnis = ersteZahl * zweiteZahl;
             break;
-          case '/':
-            ergebnis = ersteZahl / zweiteZahl;
-            break;
           case '%':
             ergebnis = ersteZahl % zweiteZahl;
             break;
-          default:
+          case '/':
+
+            // Division durch Null wird nicht abgefangen
+            ergebnis = ersteZahl / zweiteZahl;
+            break;
+
+            // Division durch Null abfangen
+//            if (!(zweiteZahl == 0))
+//            {
+//              ergebnis = ersteZahl / zweiteZahl;
+//              break;
+//            }
+//            else
+//            {
+//              ergebnis = 0;
+//              fprintf(stderr, "Division durch Null nicht definiert!\n");
+//            }
+            default:
             fprintf(stderr, "Das ist keine gültige Eingabe.\n\n");
             return -1;
           }

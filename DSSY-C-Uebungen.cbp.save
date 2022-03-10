@@ -33,11 +33,11 @@
 		</Compiler>
 		<Unit filename="01-Taschenrechner/Beipiele/01-calc-sdt.c">
 			<Option compilerVar="CC" />
-			<Option compile="0" />
-			<Option link="0" />
 		</Unit>
 		<Unit filename="01-Taschenrechner/Beipiele/02-calc-ext.c">
 			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
 		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />

@@ -44,16 +44,16 @@ int main () {
             default: fputs("Fehlerhafter oder unbekannter Operator!\n", stdout);
             return 1;
          }
-        printf("%f %s %f = %f\n\n", x, operand, y, ergebnis);
+        printf("\n%f %s %f = %f\n\n", x, operand, y, ergebnis);
 
-        // Gleiche Ausgabe, aber Ausgabe auf zwei Stellen nach dem Komma gerundet
-        // Hinweis: die Ausgabe der Werte ist gerundet, nicht die Inhalte der Variablen selbst!
-        printf("%.2f %s %.2f = %.2f\n\n", x, operand, y, ergebnis);
+//         Gleiche Ausgabe, aber Ausgabe auf zwei Stellen nach dem Komma gerundet
+//         Hinweis: die Ausgabe der Werte ist gerundet, nicht die Inhalte der Variablen selbst!
+//         printf("%.2f %s %.2f = %.2f\n\n", x, operand, y, ergebnis);
 
         }
         else
         {
-            fputs("Fehlerhafte Eingabe!\n", stderr);
+            fputs("Fehlerhafte Eingabe. Abbruch!\n", stderr);
             return -1;
         }
     }
